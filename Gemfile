@@ -44,3 +44,9 @@ gem 'faker'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# gem ‘therubyracer’
+# gem ‘less-rails’
+# gem 'twitter-bootstrap-rails'
+
+

@@ -3,9 +3,9 @@
 
 # Create 8 seed categories
 categories = Category.create([
-		{ name: 'History'}, {name: 'Photography'}, {name: 'Literature'},
+		{ name: 'History'}, { name: 'Photography'}, { name: 'Literature'},
 		{ name: 'Anthropology'}, { name: 'Music Theory'}, { name: 'Computer Science'},
-		{ name: 'Education'}, {name: 'Psychology'}
+		{ name: 'Education'}, { name: 'Psychology'}
 	])
 
 # create 50 articles, with random titles, 250 words of content, and
