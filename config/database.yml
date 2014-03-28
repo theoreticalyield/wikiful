@@ -5,7 +5,7 @@
 #   gem 'sqlite3'
 development:
   adapter: postgresql
-  database: wikiful_development
+  database: wikiful_development2
   encoding: unicode
   user: wikiful
   host: localhost
@@ -17,7 +17,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   adapter: postgresql
-  database: wikiful_test
+  database: wikiful_test2
   encoding: unicode
   user: wikiful
   host: localhost
@@ -26,7 +26,7 @@ test:
 
 production:
   adapter: postgresql
-  database: wikiful_production
+  database: wikiful_production2
   encoding: unicode
   pool: 5
   timeout: 5000

@@ -8,6 +8,7 @@ Wikiful::Application.routes.draw do
   root 'welcome#index'
   resources :articles
 
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
