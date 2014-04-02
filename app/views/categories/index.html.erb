@@ -1,0 +1,11 @@
+<h1>Wikiful Categories Index</h1>
+<h3>Click on a category below for a full list of articles classified under that category</h3>
+<ul>
+	<% @categories.each do |category| %>
+		<div>
+			<h3><%= link_to category.name, category %></h3>
+		</div>
+
+	<% end %>
+</ul>
+

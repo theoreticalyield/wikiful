@@ -1,0 +1,16 @@
+# This is the show view for Categories
+
+
+<h1><%= @category.name %> Articles</h1>
+<h3>There are <%= @category.articles.count %> articles listed under <%= @category.name %>
+
+<ul>
+	<%= @category.articles.order(:title).each do |article| %>
+		<h5>
+			<%= link_to article.title, article %>
+		</h5>
+		<% end %>
+</ul>
+
+
+	
