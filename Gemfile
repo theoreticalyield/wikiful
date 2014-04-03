@@ -45,8 +45,11 @@ gem 'faker'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-# gem ‘therubyracer’
-# gem ‘less-rails’
-# gem 'twitter-bootstrap-rails'
+ gem 'twitter-bootstrap-rails' 
+ gem 'less-rails'
+ gem 'therubyracer' 
+
+# for twitter bootstrap gems, could not install via thankful instructions (the bundle 
+# install kept giving error ‘unknown variable “less”’. Instead installed each individually # in terminal with ‘gem install x’. Then, rails g bootstrap: install wouldn’t work because # of ‘less’ so I commented out the second two gems in this file.
 
 
