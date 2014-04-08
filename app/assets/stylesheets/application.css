@@ -11,3 +11,12 @@
  *= require_self
  *= require_tree .
  */
+
+ .span9 {
+	padding: 40px;
+}
+
+.span3 sidebar {
+	padding: 100px;
+	font-size: 10px;
+}
